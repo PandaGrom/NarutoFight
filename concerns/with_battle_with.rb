@@ -20,3 +20,4 @@ module WithBattleWith
     Random.new.rand(0..1) > 0 ? enemy.name : name
   end
 end
+

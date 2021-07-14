@@ -17,3 +17,4 @@ class Team
     shinobies.map(&:damage).sum
   end
 end
+

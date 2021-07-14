@@ -6,22 +6,22 @@ class Shinobi
   CLASSSES = %w[Genin Chounin Djounin Nukenin].freeze
   NATIONS = %w[Konoha Pesok Kamen Tuman Oblako].freeze
 
-    attr_accessor \
-        :name,
-        :age,
-        :classs,
-        :damage,
-        :nation,
+  attr_accessor \
+    :name,
+    :age,
+    :classs,
+    :damage,
+    :nation,
     :enemy
 
-    def initialize(name:, age:, classs:, damage:, nation:)
-        @name = name
-        @age = age
-        @classs = classs
-        @damage = damage
-        @nation = nation
+  def initialize(name:, age:, classs:, damage:, nation:)
+    @name = name
+    @age = age
+    @classs = classs
+    @damage = damage
+    @nation = nation
     validation
-    end
+  end
 
   private
 
